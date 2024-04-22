@@ -58,10 +58,16 @@ hr{
   margin: 20px auto;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
   .container{
-    width:300px;
+    width:280px;
     height: 555px;
+    background-color: transparent;
+    
+  }
+
+  body{
+    background-color: #93F6E9;
   }
 
   .parent-of-h-div{
